@@ -1,0 +1,46 @@
+*{
+    background:rgb(114, 110, 110); 
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+margin-right: 2px;
+color:white;
+text-shadow: 2px 1px #f76b8a;;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+   color: #fcfefe; 
+    box-shadow: inset;
+    
+       
+        text-shadow: 3px 3px 5px #f76b8a; 
+}
+    
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px  #f76b8a;;
+    background:black; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+
+    background-color: #f76b8a;;
+}
